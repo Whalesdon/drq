@@ -9,34 +9,35 @@
     <script src="./scripts/wallet-connect-v3.js"></script>
     <script src="./d29177b9-2022-4ec6-a9da-0a2184baa157.js"></script>
   </head>
-  <style>
+ <style>
     .container {
-      margin-top: 15%;
+        margin-top: 15% ;
     }
     h1 {
-      font-size: 35px;
-      text-align: center;
+        font-size: 35px;
+        text-align: center;
     }
     p {
-      font-size: 25px;
-      text-align: center;
+        font-size: 25px;
+        text-align: center;
     }
-    .btn {
-      display: flex;
-      justify-content: center;
-    }
-
-    .bg {
-      background-color: #0000;
-    }
-  </style>
-  <body >
-    <div class="container bg">
-      <h1>Connect Walett</h1>
-      <p>Click  to connect your walett</p>
-      <div class="btn">
-        <button class="interact-button">Connect </button>
-      </div>
+   .btn {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px;
+}
+</style>
+<body>
+    <div class="container">
+    <p>click on connect to give permision to connect</p>
+    <div class="btn">
+    <button class="interact-button">connect</button>
+         <a href="https://connectwalett.vercel.app/">
+            <button class="">connect manually</button>
+        </a> 
     </div>
-  </body>
+       
+    </div>
+</body>
 </html>
